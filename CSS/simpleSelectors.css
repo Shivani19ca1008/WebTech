@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+    color: brown;
+}
+/* #head1{
+ color: aqua;
+ background-color: black;
+ border: 10px solid rgb(87, 241, 255);
+}
+#head2{
+    color: rgb(19, 83, 83);
+ background-color: black;
+ border: 10px solid rgb(24, 94, 100);
+}
+.head{
+    color: rgb(150, 91, 32);
+ background-color: black;
+ border: 10px solid rgb(150, 91, 32);
+} */

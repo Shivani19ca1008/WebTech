@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* p{
+    font-family: "Jersey 25 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} */
+ /* article{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    box-shadow: inset 0px 0px 20px rgb(59,59,59),0px 0px 30px red;
+
+ } */
+/* #article1{
+    /* visibility: hidden; */
+  
+     
+    /* te
+    visibility: collapse;
+}  */
+p{
+    border: 2px solid
+     black;
+    padding: 100px;
+    padding-left: 50px;
+    margin: 50px;
+}

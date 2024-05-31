@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+header marquee {
+  background: rgb(0, 115, 74);
+  color: rgb(255, 255, 255);
+  height: 5vh;
+  align-content: center;
+}
+
+header .nav {
+  background-color: rgb(41, 40, 40);
+  height: 8vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 20px;
+  justify-content: space-between;
+}
+
+header .nav .brand {
+  display: flex;
+}
+
+header .nav .brand p {
+  padding-right: 10px;
+}
+
+header div nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+header div nav ul li {
+  display: flex;
+  padding: 0 20px 0 10px;
+}
+#pelogo {
+  height: 80px;
+}
+.bar3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+}
+.bar3p {
+  font-size: larger;
+}
+#searchbar {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid;
+}
+#delivery {
+  height: 50%;
+  width: 15vw;
+  background: black;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: no-wrap;
+  text-decoration: none;
+  align-items: center;
+  color: white;
+}
+div a {
+  color: white;
+  text-decoration: none;
+  flex-wrap: wrap;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
+#truck {
+  padding: 10px;
+}
+.sidescroll {
+  /* overflow-y: none; */
+  overflow-x: auto;
+  display: flex;
+  white-space: no-wrap;
+}
+#scrollimg {
+  min-width: 65%;
+}
+#no1 {
+  height: 100px;
+  width: 100vw;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url(./PE_D_TC_7.jfif);
+}
+
+.circle {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  text-decoration: underline;
+  font-size: x-large;
+  text-shadow: silver;
+  text-align: center;
+}
+
+.circle .cir {
+  height: 200px;
+  margin-left: 20px;
+  width: 200px;
+  background-image: url(./Shirts.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.circle #cir1 {
+  background: url(./asccess.jpg);
+}
+
+.circle #cir2 {
+  background: url(./Jeans.jpg);
+}
+
+.circle #cir3 {
+  background: url(./Shirts.jpg);
+}
+
+.circle #cir4 {
+  background: url(./Jackets.jpg);
+}
+
+.circle #cir5 {
+  background: url(./Trousers.jpg);
+}
+
+.circle #cir6 {
+  background: url(./Footwear.jpg);
+}
+
+.sq {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.sq1 {
+  height: 400px;
+  width: 40vw;
+  gap: 10px;
+}
+
+.sq #sq2 {
+  background: url(./WhatsApp\ Image\ 2024-05-21\ at\ 11.13.01\ AM.jpeg);
+  background-size: cover;
+}
+
+.sq #sq1 {
+  background: url(./WhatsApp\ Image\ 2024-05-21\ at\ 11.11.41\ AM.jpeg);
+  background-size: cover;
+}
+
+.discount-banner {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.discount-banner h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.discount-banner p {
+  margin: 10px 0 0;
+  font-size: 16px;
+  line-height: 1.5;
+}

@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 600px;
+    border: 1px solid;
+    position: relative;
+}
+.ball{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    background-color: bisque;
+    position: absolute;
+    border-radius: 50%;
+    top: 40px;
+    left: 40px;
+    animation-name: Ball;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+main{
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+}
+@keyframes Ball{
+    0%{
+         left: 40px;   
+         top: 40px;
+         background-color: rgb(24, 15, 3);
+    }
+    25%{
+        left: 460px;
+        top: 40px;
+        background-color: brown;
+        transform: scale(1.2);
+        border: 5px double;
+    }
+    50%{
+       top: 460px;
+       left: 460px;
+       background-color: aqua;
+       transform: scale(0.7);
+       border: 5px dashed;
+    }
+    75%{
+     left: 40px;
+     top: 460px;
+     background-color: blueviolet;
+    }
+    100%{
+      top: 40px;
+      background-color: aquamarine;
+    }
+}

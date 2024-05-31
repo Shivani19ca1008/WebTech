@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    /* text-align: center; */
+    /* color: rgba(rgb(56, 176, 104), rgb(57, 148, 57), rgb(56, 193, 97),0.3);
+    background-color: black; */
+    /* color: hsla(150deg, 50%, 50%,0.4');
+    text-transform: capitalize;
+    /* text-shadow: 2px 5px 10px blue; */
+    text-decoration-line: underline;
+    text-decoration-color: blueviolet;
+    text-decoration-style:double;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-indent: 10px; 
+}
+p{ 
+
+    text-align-last: left;
+
+}

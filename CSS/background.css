@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+article{
+    height: 600px;
+    width: 600px;
+    border: 10px solid;
+    background-color: pink;
+    border-radius: 50%;
+    background: conic-gradient( red 40deg,orange 40deg 80deg,blue 80deg 120deg,pink 120deg 160deg,violet 160deg 200deg,purple 200deg 240deg,white 240deg 280deg,gold 280deg 320deg,silver 320deg 360deg) ;
+    background: conic-gradient(red 0deg 45deg, green 45deg 135deg,blue 135deg 225deg,black 225deg 315deg,red  315deg 360deg);
+    overflow-y: auto;
+
+}
+#a::-webkit-scrollbar{
+    display: none;
+}
+.a1{
+    height: 600px;
+    width: 600px;
+    border: 10px solid;
+    background-color: pink;
+    border-radius: 50%;
+    background: conic-gradient( red 40deg,orange 40deg 80deg,blue 80deg 120deg,pink 120deg 160deg,violet 160deg 200deg,purple 200deg 240deg,white 240deg 280deg,gold 280deg 320deg,silver 320deg 360deg) ;
+    background: conic-gradient(red 0deg 135deg, green 135deg 215deg,blue 215deg); 
+}
+.a2{
+    height: 600px;
+    width: 600px;
+    border: 10px solid;
+    background-color: pink;
+    border-radius: 50%;
+    background: conic-gradient( red 40deg,orange 40deg 80deg,blue 80deg 120deg,pink 120deg 160deg,violet 160deg 200deg,purple 200deg 240deg,white 240deg 280deg,gold 280deg 320deg,silver 320deg 360deg) ;
+    background: conic-gradient(red 0deg 90deg, green 90deg 135deg,blue 135deg 215deg,gold 215deg 305deg, silver 305deg); 
+}
+.a3{
+    height: 600px;
+    width: 600px;
+    border: 10px solid;
+    background-color: pink;
+    border-radius: 50%;
+    background-image: url(./d93ed6bbf96c00adc0413adb7d4b7b79.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background: conic-gradient( red 40deg,orange 40deg 80deg,blue 80deg 120deg,pink 120deg 160deg,violet 160deg 200deg,purple 200deg 240deg,white 240deg 280deg,gold 280deg 320deg,silver 320deg 360deg) ; */
+    /* background: conic-gradient(lime 0deg 45deg, black 45deg 135deg,lime 135deg 225deg,black 225deg 315deg,lime 315deg );  */
+}
+.a4{
+    background-image: url(./d93ed6bbf96c00adc0413adb7d4b7b79.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

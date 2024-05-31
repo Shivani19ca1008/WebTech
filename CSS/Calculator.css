@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    border: 2px solid black;
+    background-color: rgb(255, 228, 196);
+    height: 600px;
+    width: 500px;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: "cont1 cont1 cont1 cont1"
+                         "cont1 cont1 cont1 cont1" 
+                         "cont2 cont3 cont4 cont5"
+                         "cont6 cont7 cont8 cont9" 
+                         "cont10 cont11 cont12 cont13"
+                         "cont14 cont15 cont16 cont17"  
+                         "cont18 cont19 cont20 cont21"  
+                         "cont22 cont22 cont23 cont21"  ;
+
+}
+section div{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cont1{
+    font-size: larger   ;
+    padding: 3px;
+    justify-content: end;
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont1;
+}
+.cont2{
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont2;
+}
+.cont3{
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont3;
+}
+.cont4{
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont4;
+}
+.cont5{
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont5;
+}
+.cont6{
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont6;
+}
+.cont7{
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont7;
+}
+.cont8{
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont8;
+}
+.cont9{
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont9;
+}
+.cont10{
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont10;
+}
+.cont11{
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont11;
+}
+.cont12{
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont12;
+}
+.cont13{
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont13;
+}
+.cont14{
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont14;
+}
+.cont15{
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont15;
+}
+.cont16{
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont16;
+}
+.cont17{
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont17;
+}
+.cont18{
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont18;
+}
+.cont19{
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont19;
+}
+.cont20{
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont20;
+}
+.cont21{
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont21;
+}
+.cont22{
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont22;
+}
+.cont23{
+    border-radius: 10px;
+    background-color: aqua;
+    grid-area: cont23;
+}
+
+
